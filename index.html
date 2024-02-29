@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vehicle Information Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Vehicle Information Calculator</h1>
+
+    <label for="mileage">Mileage (km per liter):</label>
+    <input type="text" id="mileage" placeholder="Enter mileage">
+
+    <label for="petrolRate">Petrol Rate (₹ per liter):</label>
+    <input type="text" id="petrolRate" placeholder="Enter petrol rate">
+
+    <label for="tankCapacity">Tank Capacity (liters):</label>
+    <input type="text" id="tankCapacity" placeholder="Enter tank capacity">
+
+    <button onclick="calculatePetrolCost()">Calculate</button>
+
+    <div id="result">
+        <!-- Result will be displayed here -->
+    </div>
+</div>
+<footer class="foo">ⓒ Copyright All Rights Reserved from RP Corporation</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
